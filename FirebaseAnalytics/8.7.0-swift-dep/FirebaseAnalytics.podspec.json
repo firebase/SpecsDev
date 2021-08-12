@@ -37,7 +37,7 @@
         {
             "name": "AdIdSupport",
             "dependencies": {
-                "GoogleAppMeasurement": "8.6.0"
+                "GoogleAppMeasurement": "8.7.0-swift-dep"
             },
             "vendored_frameworks": [
                 "Frameworks/FirebaseAnalytics.xcframework"
