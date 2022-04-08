@@ -31,7 +31,7 @@
     {
       "name": "Core",
       "platforms": {
-        "ios": "9.0",
+        "ios": "10.0",
         "osx": "10.12",
         "tvos": "12.0"
       },
@@ -84,7 +84,7 @@
     {
       "name": "Analytics",
       "platforms": {
-        "ios": "9.0",
+        "ios": "10.0",
         "osx": "10.12",
         "tvos": "12.0"
       },
@@ -97,7 +97,7 @@
     {
       "name": "AnalyticsWithAdIdSupport",
       "platforms": {
-        "ios": "9.0",
+        "ios": "10.0",
         "osx": "10.12",
         "tvos": "12.0"
       },
@@ -110,7 +110,7 @@
     {
       "name": "AnalyticsWithoutAdIdSupport",
       "platforms": {
-        "ios": "9.0",
+        "ios": "10.0",
         "osx": "10.12",
         "tvos": "12.0"
       },
@@ -166,7 +166,7 @@
 
         ],
         "FirebaseAppCheck": [
-          "~> 9.0.0-beta"
+          "~> 9.0.0"
         ]
       },
       "platforms": {
