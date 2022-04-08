@@ -24,11 +24,13 @@
   "cocoapods_version": ">= 1.4.0",
   "prefix_header_file": false,
   "source_files": [
-    "FirebaseStorageSwift/Sources/*.swift",
-    "FirebaseStorageSwift/Typedefs/*.h"
+    "FirebaseStorage/Sources/*.swift",
+    "FirebaseStorage/Typedefs/*.h",
+    "FirebaseAppCheck/Interop/*.h",
+    "FirebaseAuth/Interop/*.h"
   ],
   "dependencies": {
-    "FirebaseStorageObjC": [
+    "FirebaseStorageInternal": [
       "~> 9.0"
     ],
     "FirebaseAppCheckInterop": [
@@ -57,13 +59,13 @@
         "tvos": "10.0"
       },
       "source_files": [
-        "FirebaseStorage/Tests/Integration/*.[mh]",
-        "FirebaseStorageSwift/Tests/ObjCIntegration/*.m"
+        "FirebaseStorageInternal/Tests/Integration/*.[mh]",
+        "FirebaseStorage/Tests/ObjCIntegration/*.m"
       ],
       "requires_app_host": true,
       "resources": [
-        "FirebaseStorage/Tests/Integration/Resources/1mb.dat",
-        "FirebaseStorage/Tests/Integration/Resources/GoogleService-Info.plist"
+        "FirebaseStorageInternal/Tests/Integration/Resources/1mb.dat",
+        "FirebaseStorageInternal/Tests/Integration/Resources/GoogleService-Info.plist"
       ],
       "dependencies": {
         "FirebaseAuth": [
@@ -85,7 +87,7 @@
         "osx": "10.12",
         "tvos": "10.0"
       },
-      "source_files": "FirebaseStorageSwift/Tests/Unit/StorageAPITests.swift"
+      "source_files": "FirebaseStorage/Tests/Unit/StorageAPITests.swift"
     },
     {
       "name": "integration",
@@ -98,12 +100,12 @@
         "osx": "10.12",
         "tvos": "10.0"
       },
-      "source_files": "FirebaseStorageSwift/Tests/Integration/*.swift",
+      "source_files": "FirebaseStorage/Tests/Integration/*.swift",
       "requires_app_host": true,
       "resources": [
-        "FirebaseStorage/Tests/Integration/Resources/1mb.dat",
-        "FirebaseStorage/Tests/Integration/Resources/GoogleService-Info.plist",
-        "FirebaseStorage/Tests/Integration/Resources/HomeImprovement.numbers"
+        "FirebaseStorageInternal/Tests/Integration/Resources/1mb.dat",
+        "FirebaseStorageInternal/Tests/Integration/Resources/GoogleService-Info.plist",
+        "FirebaseStorageInternal/Tests/Integration/Resources/HomeImprovement.numbers"
       ],
       "dependencies": {
         "FirebaseAuth": [
