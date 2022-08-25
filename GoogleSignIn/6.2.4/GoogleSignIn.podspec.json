@@ -1,6 +1,6 @@
 {
   "name": "GoogleSignIn",
-  "version": "6.2.3",
+  "version": "6.2.4",
   "summary": "Enables iOS apps to sign in with Google.",
   "description": "The Google Sign-In SDK allows users to sign in with their Google account from third-party apps.",
   "homepage": "https://developers.google.com/identity/sign-in/ios/",
