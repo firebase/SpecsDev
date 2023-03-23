@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
     s.source           = {
       :git => 'https://github.com/firebase/firebase-ios-sdk.git',
       # :tag => 'CocoaPods-' + s.version.to_s
-      :commit => '4b298169fee6c131169134e52514f344e769e4e9'
+      :commit => '3f845e524ddd6d0a948c4aaf7ac2a83ea809659c'
     }
     s.social_media_url = 'https://twitter.com/Firebase'
 
@@ -50,6 +50,7 @@ Pod::Spec.new do |s|
     s.dependency 'FirebaseCore', '~> 10.0'
     s.dependency 'FirebaseCoreExtension', '~> 10.0'
     s.dependency 'FirebaseInstallations', '~> 10.0'
+    s.dependency 'GoogleUtilities/UserDefaults', '~> 7.8'
 
     s.pod_target_xcconfig = {
       'GCC_C_LANGUAGE_STANDARD' => 'c99',
