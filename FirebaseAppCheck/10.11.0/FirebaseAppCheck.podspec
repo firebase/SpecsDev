@@ -77,9 +77,9 @@ Pod::Spec.new do |s|
 
   s.test_spec 'integration' do |integration_tests|
     integration_tests.platforms = {
-      :ios => ios_deployment_target,
-      :osx => osx_deployment_target,
-      :tvos => tvos_deployment_target
+      :ios => '13.0',
+      :osx => '10.15',
+      :tvos => '13.0'
     }
     integration_tests.source_files = [
       base_dir + 'Tests/Integration/**/*.swift',
