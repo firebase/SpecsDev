@@ -51,7 +51,10 @@
           "10.19.0"
         ]
       },
-      "vendored_frameworks": "Frameworks/GoogleAppMeasurementIdentitySupport.xcframework"
+      "vendored_frameworks": "Frameworks/GoogleAppMeasurementIdentitySupport.xcframework",
+      "resource_bundles": {
+        "GoogleAppMeasurementIdentitySupportResources": "Frameworks/GoogleAppMeasurementIdentitySupport.xcframework/ios-arm64/GoogleAppMeasurementIdentitySupport.framework/PrivacyInfo.xcprivacy"
+      }
     },
     {
       "name": "WithoutAdIdSupport",
