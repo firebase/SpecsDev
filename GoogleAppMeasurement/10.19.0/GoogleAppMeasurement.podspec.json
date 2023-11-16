@@ -55,7 +55,10 @@
     },
     {
       "name": "WithoutAdIdSupport",
-      "vendored_frameworks": "Frameworks/GoogleAppMeasurement.xcframework"
+      "vendored_frameworks": "Frameworks/GoogleAppMeasurement.xcframework",
+      "resource_bundles": {
+        "GoogleAppMeasurementResources": "Frameworks/GoogleAppMeasurement.xcframework/ios-arm64/GoogleAppMeasurement.framework/PrivacyInfo.xcprivacy"
+      }
     }
   ]
 }
