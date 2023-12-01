@@ -10,7 +10,7 @@
   },
   "authors": "Google, Inc.",
   "source": {
-    "http": "https://dl.google.com/firebase/ios/experimental/GoogleAppMeasurement/10.17.0/GoogleAppMeasurement-10.17.0.tar.gz"
+    "http": "https://dl.google.com/firebase/ios/experimental/GoogleAppMeasurement/10.17.0/signed/GoogleAppMeasurement-10.17.0.tar.gz"
   },
   "cocoapods_version": ">= 1.10.2",
   "platforms": {
